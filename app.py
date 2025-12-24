@@ -5,7 +5,7 @@ from ultralytics import YOLO
 
 app = FastAPI()
 
-model = YOLO("Microplastic_Yolov8_model.pt")
+model = YOLO("Microplastic_Yolov8_Model.pt")
 
 PIXEL_TO_NM = 100
 RISK_THRESHOLD = 15
